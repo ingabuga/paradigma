@@ -1,0 +1,24 @@
+.header__calc {
+  display: flex;
+  margin-right: 2.96875vw;
+  align-items:center;
+}
+
+.header__calc img {
+  flex-shrink: 0;
+  width: 1.82291667vw;
+  height: 1.82291667vw;
+  border-radius: 50%;
+  overflow: hidden;
+  object-fit: cover;
+  -o-object-fit: cover;
+  margin-right: 0.52083333vw;
+  -ms-flex-negative: 0;
+}
+
+.header__calc p {
+  margin: 0;
+  font-weight: 400;
+  font-size: 0.57291667vw;
+  line-height: 1.6363;
+}

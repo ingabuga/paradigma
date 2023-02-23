@@ -1,0 +1,22 @@
+.header__social {
+  display: flex;
+  margin-right: 2.96875vw;
+  align-items:center;
+}
+
+
+.header__social p {
+  font-weight: 400;
+  font-size: 0.57291667vw;
+  margin: 0 0.9375vw 0 0;
+}
+
+.header__social a {
+  width: 1.82291667vw;
+  height: 1.82291667vw;
+  margin-right: 0.3125vw;
+}
+
+.header__social a:last-child {
+  margin-right: 0;
+}

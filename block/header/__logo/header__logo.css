@@ -1,0 +1,14 @@
+.header__logo {
+  margin-right: auto;
+  display: flex;
+}
+
+
+.header__logo-link {
+  margin-right: 1.19791667vw;
+}
+
+.header__logo img {
+  width: 11.09375vw;
+  height: 2.60416667vw;
+}

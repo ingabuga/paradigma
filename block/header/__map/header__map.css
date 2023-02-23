@@ -1,0 +1,23 @@
+.header__map {
+  display: flex;
+  margin-right: 2.96875vw;
+  align-items:center;
+}
+
+.header__map img {
+  flex-shrink: 0;
+  width: 0.625vw;
+  height: 0.78125vw;
+  overflow: hidden;
+  object-fit: cover;
+  -o-object-fit: cover;
+  margin-right: 0.52083333vw;
+  -ms-flex-negative: 0;
+}
+
+.header__map a {
+  margin: 0;
+  font-weight: 400;
+  font-size: 0.57291667vw;
+  line-height: 1.6363;
+}

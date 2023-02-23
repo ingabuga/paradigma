@@ -1,0 +1,7 @@
+.header__first {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  padding: 1.145833vw 0 1.145833vw 0;
+  border-bottom: 1px solid  #2A2A2A;
+}
