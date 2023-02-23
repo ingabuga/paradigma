@@ -8,6 +8,7 @@
 .header__social p {
   font-weight: 400;
   font-size: 0.57291667vw;
+  line-height: 1.6363;
   margin: 0 0.9375vw 0 0;
 }
 
@@ -17,6 +18,15 @@
   margin-right: 0.3125vw;
 }
 
+.header__social a img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 50%;
+}
+
 .header__social a:last-child {
   margin-right: 0;
 }
+
+
