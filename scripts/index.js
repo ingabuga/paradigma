@@ -5,7 +5,8 @@ const popupCall = document.querySelector('.popup__call'); //попап ново�
 const popups = document.querySelectorAll('.popup__call'); //попап нового места
 const checkbox = document.getElementById("checkbox");
 const btnSubmit = document.querySelector(".popup__button");
-
+const maps = document.querySelectorAll('.header__map');
+const map = document.querySelector('.header__map-yandex');
 
 
 // Функция проверки чекбокса
@@ -19,6 +20,18 @@ checkbox.addEventListener("change", () => {
     }
 });
 
+//добавляем класс по ховеру к карте
+maps.forEach((item) => {
+  item.addEventListener('mouseover', () =>{
+    map.classList.add('active')
+  });
+  item.addEventListener('mouseleave', () => {
+    function remove() {
+      map.classList.remove('active')
+    }
+    setTimeout(remove, 1500)
+  });
+});
 
 
 

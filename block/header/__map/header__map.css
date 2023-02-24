@@ -16,10 +16,45 @@
 }
 
 .header__map a {
+  position: relative;
   margin: 0;
   font-weight: 400;
   font-size: 0.57291667vw;
   line-height: 1.6363;
   text-decoration: none;
   color: black;
+}
+
+.header__map a::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: -2px;
+  border-bottom: 0.1041666667vw dotted #d91967;
+  width: 100%;
+  height: 0;
+  -webkit-transition: .4s;
+  transition: .4s;
+}
+
+
+.header__map a:hover::after {
+  width:50%;
+}
+
+.header__map-yandex {
+  position: absolute;
+  visibility: hidden;
+  opacity: 0;
+  width: 21vw;
+  height: 21vw;
+  top: 10%;
+  left: 50%;
+  transform: translateX(-50%);
+  transform: all 0.4s;
+}
+
+.active {
+  visibility: visible;
+  opacity: 1;
 }
