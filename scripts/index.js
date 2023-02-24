@@ -3,6 +3,23 @@ const buttonClose = document.querySelector('.popup__button-close'); // выби�
 
 const popupCall = document.querySelector('.popup__call'); //попап нового места
 const popups = document.querySelectorAll('.popup__call'); //попап нового места
+const checkbox = document.getElementById("checkbox");
+const btnSubmit = document.querySelector(".popup__button");
+
+
+
+// Функция проверки чекбокса
+checkbox.addEventListener("change", () => {
+    if (checkbox.checked) {
+        btnSubmit.removeAttribute("disabled");
+        btnSubmit.classList.add("popup__button_active");
+    } else {
+        btnSubmit.setAttribute("disabled", true);
+        btnSubmit.classList.remove("popup__button_active");
+    }
+});
+
+
 
 
 // //Функция открытия попапа
@@ -44,3 +61,5 @@ function escapeHandler(evt) {
 
 
 buttonTel.addEventListener('click', () => openPopups(popupCall));
+btnSubmit.addEventListener('click', () => closePopups(popupCall));
+

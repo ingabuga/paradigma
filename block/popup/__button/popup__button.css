@@ -1,15 +1,21 @@
 .popup__button {
   width: 363px;
   height: 85px;
-  background-color:red;
-  color: white;
+  background-color:rgb(144, 41, 41);
+  color: rgb(141, 141, 141);
   border-radius: 73px;
   text-align: center;
   margin: 12px 0 22px 0;
   border:none;
   padding:0;
+
 }
 
+.popup__button_active {
+  color: white;
+  background-color: red;
+  cursor: pointer;
+}
 
 .popup__button-close {
   width: 20px;
