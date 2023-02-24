@@ -9,4 +9,6 @@
   text-transform: uppercase;
   letter-spacing: .15em;
   font-size: 0.625vw;
+  text-decoration: none;
+  color: black;
 }

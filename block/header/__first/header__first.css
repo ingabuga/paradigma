@@ -1,4 +1,6 @@
 .header__first {
+  width: 85vw;
+  margin: 0 7.13541667vw 0 auto;
   display: flex;
   align-items: center;
   justify-content: flex-end;

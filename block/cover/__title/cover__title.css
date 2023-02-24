@@ -1,0 +1,13 @@
+.cover__title {
+  font-weight: 400;
+  color: white;
+  font-size: 3.38541667vw;
+  line-height: 1.46em;
+  letter-spacing: 0.02em;
+  padding-bottom: 2.34375vw;
+  margin: 0;
+}
+
+.cover__title strong {
+  font-weight: 700;
+}

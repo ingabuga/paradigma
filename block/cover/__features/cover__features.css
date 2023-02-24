@@ -1,0 +1,10 @@
+.cover__features {
+  max-width: 79.375vw;
+  min-height: 7.96875vw;
+  display: flex;
+  justify-content: flex-start;
+  /* margin: 0 auto; */
+  list-style: none;
+  padding: 0 0 0 5.98958333vw;
+  margin: 0;
+}

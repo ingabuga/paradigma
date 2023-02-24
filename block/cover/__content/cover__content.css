@@ -1,0 +1,14 @@
+.cover__content {
+  width: 100%;
+  /* min-height: 90vh; */
+  display: flex;
+  flex-direction: column;
+  justify-content:stretch;
+  object-fit: cover;
+  background-image: url(../../../images/bg-dark.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  flex-shrink: 0;
+  align-items: flex-start;
+}

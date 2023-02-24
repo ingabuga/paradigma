@@ -1,0 +1,36 @@
+.cover__feature {
+  color: white;
+  font-weight: 400;
+  font-size: 0.88541667vw;
+  line-height: 1.57em;
+  border-right: 1pt solid rgba(255, 255, 255, 0.25);
+  margin-right: 4.94791667vw;
+  padding-right: 4.94791667vw;
+
+}
+
+.cover__feature:nth-child(1) {
+  width: 15.6770833vw;
+}
+
+.cover__feature:nth-child(2) {
+  width: 16.5104167vw;
+}
+
+.cover__feature:nth-child(3) {
+  width: 12.34375vw;
+}
+
+.cover__feature:last-child {
+  border-right: none;
+  margin-right: 0;
+  padding-right: 0;
+  width: 27vw;
+}
+
+.cover__feature img {
+  width: 0.8675vw;
+  height: 0.5vw;
+  margin-bottom: 0.66666vw;
+  object-fit: cover;
+}

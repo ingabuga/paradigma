@@ -14,3 +14,16 @@
 @import url(../block/header/__second/header__second.css);
 @import url(../block/header/__menu/header__menu.css);
 @import url(../block/header/__tel/header__tel.css);
+
+
+@import url(../block/cover/cover.css);
+@import url(../block/cover/__content/cover__content.css);
+@import url(../block/cover/__main/cover__main.css);
+@import url(../block/cover/__title/cover__title.css);
+@import url(../block/cover/__subtitle/cover__subtitle.css);
+
+@import url(../block/cover/__buttons/cover__buttons.css);
+@import url(../block/cover/__button/cover__button.css);
+
+@import url(../block/cover/__features/cover__features.css);
+@import url(../block/cover/__feature/cover__feature.css);
