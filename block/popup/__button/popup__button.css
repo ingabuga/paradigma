@@ -1,11 +1,14 @@
 .popup__button {
-  width: 363px;
-  height: 85px;
+  /* width: 363px; */
+  width: 18.90625vw;
+  /* height: 85px; */
+  height: 4.42708333vw;
   background-color:rgb(144, 41, 41);
   color: rgb(141, 141, 141);
   border-radius: 73px;
   text-align: center;
-  margin: 12px 0 22px 0;
+  /* margin: 12px 0 22px 0; */
+  margin: 0.625vw 0 1.1458333vw 0;
   border:none;
   padding:0;
 
@@ -18,8 +21,10 @@
 }
 
 .popup__button-close {
-  width: 20px;
-  height: 20px;
+  /* width: 20px; */
+  width: 1.04166667vw;
+  /* height: 20px; */
+  height: 1.0416667vw;
   background-image: url(../../../images/close.svg);
   background-repeat: no-repeat;
   background-position: center;
@@ -27,7 +32,9 @@
   border-width: 0;
   background-color: transparent;
   position: absolute;
-  top: 35px;
-  right: 37px;
+  /* top: 35px; */
+  top: 1.822291667vw;
+  /* right: 37px; */
+  right: 1.92708333vw;
   cursor: pointer;
 }

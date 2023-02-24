@@ -3,7 +3,8 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  width: 364px;
+  width: 18.958333vw;
+  /* width: 364px; */
   /* height: 600px; */
   background-image: url(../../../images/form-bg.jpg);
   background-repeat: no-repeat;
@@ -12,12 +13,7 @@
   margin: 0 auto;
   font-family: 'Manrope', Arial, sans-serif;
   color: white;
-  padding: 45px 68px 75px 68px;
+  /* padding: 45px 68px 75px 68px; */
+  padding: 2.34375vw 3.54166667vw 3.90625vw 3.54166667vw;
 }
 
-
-.popup__block label {
-  font-size: 14px;
-  font-weight: 400;
-  text-align: center;
-}

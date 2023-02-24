@@ -1,13 +1,17 @@
 .popup__tel {
-  font-size: 14px;
+  /* font-size: 14px; */
+  font-size: 0.72916667vw;
   font-weight: 400;
   text-align: center;
 }
 
 .popup__tel-input {
-  width: 363px;
-  height: 85px;
-  border-radius: 73px;
+  /* width: 363px; */
+  width: 18.90625vw;
+  /* height: 85px; */
+  height: 4.42708333vw;
+  /* border-radius: 73px; */
+  border-radius: 3.80208333vw;
   text-align: center;
   margin: 12px 0 12px 0;
   border:none;

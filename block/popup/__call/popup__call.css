@@ -11,7 +11,8 @@
   top: 0;
   left: 0;
   width: 100%;
-  min-width: 320px;
+  /* min-width: 320px; */
+  min-width: 16.666667vw;
   height: 100%;
   transition: opacity .3s, visibility 0s .3s ease-in-out;
 }
