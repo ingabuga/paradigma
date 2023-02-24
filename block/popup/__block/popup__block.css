@@ -1,0 +1,23 @@
+.popup__block {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 364px;
+  /* height: 600px; */
+  background-image: url(../../../images/form-bg.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  margin: 0 auto;
+  font-family: 'Manrope', Arial, sans-serif;
+  color: white;
+  padding: 45px 68px 75px 68px;
+}
+
+
+.popup__block label {
+  font-size: 14px;
+  font-weight: 400;
+  text-align: center;
+}

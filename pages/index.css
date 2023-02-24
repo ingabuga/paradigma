@@ -27,3 +27,15 @@
 
 @import url(../block/cover/__features/cover__features.css);
 @import url(../block/cover/__feature/cover__feature.css);
+
+
+@import url(../block/popup/__call/popup__call.css);
+@import url(../block/popup/__block/popup__block.css);
+@import url(../block/popup/__title/popup__title.css);
+@import url(../block/popup/__subtitle/popup__subtitle.css);
+@import url(../block/popup/__tel/popup__tel.css);
+@import url(../block/popup/__button/popup__button.css);
+@import url(../block/popup/__policy/popup__policy.css);
+
+
+@import url(../block/popup/_opened/popup_opened.css);

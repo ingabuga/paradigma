@@ -1,0 +1,22 @@
+.popup__tel {
+  font-size: 14px;
+  font-weight: 400;
+  text-align: center;
+}
+
+.popup__tel-input {
+  width: 363px;
+  height: 85px;
+  border-radius: 73px;
+  text-align: center;
+  margin: 12px 0 12px 0;
+  border:none;
+  padding:0;
+}
+
+.popup__tel-input::placeholder {
+  font-size: 18px;
+  line-height: 1.333em;
+  color: #B0B0B1;
+  letter-spacing: 0.4em;
+}

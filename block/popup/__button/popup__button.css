@@ -1,0 +1,27 @@
+.popup__button {
+  width: 363px;
+  height: 85px;
+  background-color:red;
+  color: white;
+  border-radius: 73px;
+  text-align: center;
+  margin: 12px 0 22px 0;
+  border:none;
+  padding:0;
+}
+
+
+.popup__button-close {
+  width: 20px;
+  height: 20px;
+  background-image: url(../../../images/close.svg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  border-width: 0;
+  background-color: transparent;
+  position: absolute;
+  top: 35px;
+  right: 37px;
+  cursor: pointer;
+}
