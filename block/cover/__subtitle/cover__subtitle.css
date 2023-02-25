@@ -5,3 +5,13 @@
   letter-spacing: 0.02em;
   margin:0;
 }
+
+
+@media only screen and (max-width: 768px) {
+  .cover__subtitle {
+    width: 75vw;
+    font-size: 3.75vw;
+    line-height: 1.5em;
+    padding-bottom: 9.0625vw;
+  }
+}

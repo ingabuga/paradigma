@@ -11,3 +11,12 @@
 .cover__title strong {
   font-weight: 700;
 }
+
+
+@media only screen and (max-width: 768px) {
+  .cover__title {
+    font-size: 6.25vw;
+    line-height: 1.45em;
+    padding-bottom: 8.75vw;
+  }
+}

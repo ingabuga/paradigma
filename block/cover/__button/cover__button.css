@@ -3,7 +3,7 @@
   flex-shrink: 0;
   justify-content: space-between;
   width: 15.1041667vw;
-  max-height: 5.208333vw;
+  /* max-height: 5.208333vw; */
   border-radius:26.0416667vw;
   background-color: red;
   padding: 1.30208333vw 2.86458333vw;
@@ -83,4 +83,48 @@
   width: 1.6666667vw;
   height: 1.6666667vw;
   object-fit: cover;
+}
+
+
+@media only screen and (max-width: 768px) {
+  .cover__button-calc {
+    width: 55vw;
+    justify-content: center;
+    padding: 6.6666667vw 15.666667vw;
+  }
+  .cover__button-calc p {
+    text-align: center;
+    font-size: 3.3333vw;
+    width: 100%;
+  }
+
+
+.cover__button-calc img {
+  display: none;
+
+}
+
+
+.cover__button-whatsap {
+  width: 80vw;
+  justify-content: center;
+  padding: 6.6666667vw 2vw;
+  margin-top: 4.6875vw;
+  border-radius:156.25vw;
+  margin-bottom: 15.3125vw;
+}
+
+.cover__button-whatsap p {
+  text-align: center;
+  font-size: 3.3333vw;
+  width: 100%;
+}
+
+.cover__button-whatsap img {
+  display: none !important;
+}
+
+.cover__button-whatsap span {
+  color: #20C863;
+}
 }

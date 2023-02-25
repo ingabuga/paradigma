@@ -34,3 +34,39 @@
   margin-bottom: 0.66666vw;
   object-fit: cover;
 }
+
+
+@media only screen and (max-width: 768px) {
+  .cover__feature {
+    color: black;
+    font-size: 3.125vw;
+    line-height: 1.57em;
+    border-right: none;
+    margin-right: 0;
+    padding-right: 0;
+  }
+
+
+  .cover__feature:nth-child(1) {
+    width: 100%;
+  }
+
+  .cover__feature:nth-child(2) {
+    width: 100%;
+  }
+
+  .cover__feature:nth-child(3) {
+    width: 100%;
+  }
+
+  .cover__feature:last-child {
+    width: 100%;
+  }
+
+  .cover__feature img {
+    width: 4.125vw;
+    height: auto;
+    margin-bottom: 0.66666vw;
+    object-fit: cover;
+  }
+}

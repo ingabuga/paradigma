@@ -17,4 +17,8 @@
   .header__button-menu {
     display: block !important;
   }
+
+  .button-black {
+    background-image: url(../../../images/menu-black.svg);
+  }
 }

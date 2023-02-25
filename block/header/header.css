@@ -9,10 +9,16 @@
 
 @media only screen and (max-width: 768px) {
   .header {
-    width: 86.25vw;
+    width: 100vw;
     position: fixed;
     background-color: transparent;
     left: 0;
     right: 0;
+    padding-top: 3.65vw;
+    padding-bottom: 3.65vw;
+  }
+
+  .bg-white {
+    background-color: white;
   }
 }
