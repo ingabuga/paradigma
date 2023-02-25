@@ -13,14 +13,15 @@
   /* border-radius: 73px; */
   border-radius: 3.80208333vw;
   text-align: center;
-  margin: 12px 0 12px 0;
+  margin: 0.625vw 0 0.625vw 0;
   border:none;
   padding:0;
 }
 
 .popup__tel-input::placeholder {
-  font-size: 18px;
+  font-size: 0.9375vw;
   line-height: 1.333em;
   color: #B0B0B1;
+  vertical-align:middle !important;
   letter-spacing: 0.4em;
 }

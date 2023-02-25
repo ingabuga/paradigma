@@ -5,3 +5,14 @@
   margin: 0 auto;
   font-family: 'Manrope', Arial, sans-serif;
 }
+
+
+@media only screen and (max-width: 768px) {
+  .header {
+    width: 86.25vw;
+    position: fixed;
+    background-color: transparent;
+    left: 0;
+    right: 0;
+  }
+}

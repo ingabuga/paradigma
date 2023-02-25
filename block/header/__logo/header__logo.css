@@ -12,3 +12,11 @@
   width: 11.09375vw;
   height: 2.60416667vw;
 }
+
+
+@media only screen and (max-width: 768px) {
+  .header__logo img {
+    width: 28.75vw;
+    height: auto;
+  }
+}

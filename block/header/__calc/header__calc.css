@@ -46,3 +46,9 @@
 .header__calc-text p:hover::after {
   width:50%;
 }
+
+@media only screen and (max-width: 768px) {
+  .header__calc {
+    display: none !important;
+  }
+}

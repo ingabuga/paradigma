@@ -7,3 +7,9 @@
   padding: 1.145833vw 0 1.145833vw 0;
   border-bottom: 1px solid  #2A2A2A;
 }
+
+@media only screen and (max-width: 768px) {
+  .header__first {
+    border-bottom: none;
+  }
+}

@@ -24,3 +24,9 @@
   font-size: 0.57291667vw;
   line-height: 1.6363;
 }
+
+@media only screen and (max-width: 768px) {
+  .header__address {
+    display: none !important;
+  }
+}
