@@ -17,3 +17,9 @@
   padding: 2.34375vw 3.54166667vw 3.90625vw 3.54166667vw;
 }
 
+@media only screen and (max-width: 768px) {
+  .popup__block {
+    width:75vw;
+    padding: 25px 37px 40px 37px;
+  }
+}

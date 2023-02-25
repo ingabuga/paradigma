@@ -4,6 +4,7 @@ const buttonMenu = document.querySelector('.header__button-menu'); //кнопк�
 const btnSubmit = document.querySelector(".popup__button"); //кнопка отправки формы
 
 const popupCall = document.querySelector('.popup__call'); //попап обратной связи
+const popupMenu = document.querySelector('.popup__menu');
 const popups = document.querySelectorAll('.popup__call'); //попапы обратной связи
 const checkbox = document.getElementById("checkbox");
 const maps = document.querySelectorAll('.header__map');
@@ -111,6 +112,6 @@ function escapeHandler(evt) {
 //Слушатели кнопок открытия и закрытия попапов
 buttonTel.addEventListener('click', () => openPopups(popupCall));
 btnSubmit.addEventListener('click', () => closePopups(popupCall));
-buttonMenu.addEventListener('click', () => openPopups(popupCall));
+buttonMenu.addEventListener('click', () => openPopups(popupMenu));
 
 

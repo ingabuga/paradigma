@@ -141,19 +141,78 @@
     </ul>
   </section>
   <div class="popup__call">
-      <div class="popup__block">
-        <button class="popup__button-close" type="button"></button>
-        <p class="popup__title">Быстро оставить заявку</p>
-        <p class="popup__subtitle">Введите номер — позвоним вам<br>
-          в течение 5-10 минут в рабочее время</p>
-        <label class="popup__tel" for="phone">Введите ваш номер телефона</label>
-        <input class="popup__tel-input" name="phonenumber" id="phone" type="tel" placeholder="+7(__)___-__-__" required validate pattern="7\([0-9]{3}\)[0-9]{3}-[0-9]{2}-[0-9]{2}">
-        <button class="popup__button" type="submit" disabled="true">Перезвоните мне</button>
-        <div class="popup__policy">
-          <input type="checkbox" class="popup__policy-check" id="checkbox">
-          <label for="checkbox" class="popup__policy-text">Нажимая кнопку вы соглашаетесь  с условиями <a class="popup__policy-color" href="#">Политики конфиденциальности</a></label>
-        </div>
+        <div class="popup__block">
+          <button class="popup__button-close" type="button"></button>
+          <p class="popup__title">Быстро оставить заявку</p>
+          <p class="popup__subtitle">Введите номер — позвоним вам<br>
+            в течение 5-10 минут в рабочее время</p>
+          <label class="popup__tel" for="phone">Введите ваш номер телефона</label>
+          <input class="popup__tel-input" name="phonenumber" id="phone" type="tel" placeholder="+7(__)___-__-__" required validate pattern="7\([0-9]{3}\)[0-9]{3}-[0-9]{2}-[0-9]{2}">
+          <button class="popup__button" type="submit" disabled="true">Перезвоните мне</button>
+          <div class="popup__policy">
+            <input type="checkbox" class="popup__policy-check" id="checkbox">
+            <label for="checkbox" class="popup__policy-text">Нажимая кнопку вы соглашаетесь  с условиями <a class="popup__policy-color" href="#">Политики конфиденциальности</a></label>
+          </div>
+    </div>
   </div>
+  <div class="popup__menu">
+    <div class="popup__menu-block">
+      <div class="popup__menu-header">
+        <div class="header__logo">
+          <img src="./images/logo.png">
+        </div>
+        <div class="header__tel">
+            <div class="header__tel-call">
+              <div class="header__tel-dot"></div>
+              <p>Звоните Пн-Сб 10:00 - 21:00</p>
+            </div>
+              <a class="header__tel-phone-link" href="tel:89251033330">+7 (925) 103 33 30 </a>
+            <button type="button" class="header__tel-order">
+              <p>Заказать звонок</p>
+              <div class="popup__tel-order-phone"></div>
+            </button>
+          </div>
+          <div class="popup__button-menu"></div>
+      </div>
+      <div class="popup__menu-nav">
+        <nav class="popup__menu-item">
+          <a href="#services" class="popup__menu-item">Услуги</a>
+          <p>Ремонт дивгателей KIA</p>
+          <p>Ремонт двигателей HYundai</p>
+          <a href="#models" class="popup__menu-item">Модели двигателей</a>
+          <a href="#feedback" class="popup__menu-item">Отзывы</a>
+          <a href="#price" class="popup__menu-item">Стоимость</a>
+          <a href="#example" class="popup__menu-item">Примеры работ</a>
+          <a href="#articles" class="popup__menu-item">Полезные статьи</a>
+          <a href="#about" class="popup__menu-item">О компании</a>
+          <a href="#contacts" class="popup__menu-item">Контакты</a>
+        </nav>
+      </div>
+      <div class="popup__menu-map">
+        <img src="./images/map.png">
+        <div class="popup__menu-map-address">
+          <p>Адрес автоцентра:</p>
+          <p><a href="#">Шоссейный проезд, с4 а/2</a></p>
+        </div>
+      </div>
+      <div class="popup__menu-calc">
+        <img src="./images/calc.svg">
+        <div class="popup__menu-calc-text">
+          <p>Рассчитать <br>стоимость ремонта</p>
+          <p><a href="#">за 45 сек</a></p>
+        </div>
+      </div>
+      <div class="popup__menu-master">
+        <img src="./images/master.png">
+        <div class="popup__menu-master-text">
+          <p>Есть вопрос? <strong><br>Задайте его нашему мастеру онлайн</strong></p>
+          <div class="popup__menu-social">
+            <img src="./images/telegram.svg">
+            <img src="./images/whatsap.svg">
+          </div>
+        </div>
+      </div>
+    </div>
   </div>
   <script src="./scripts/index.js"></script>
 </body>

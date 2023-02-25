@@ -7,3 +7,11 @@
   /* padding-bottom: 34px; */
   padding-bottom: 1.7708333vw;
 }
+
+
+@media only screen and (max-width: 768px) {
+  .popup__subtitle {
+  font-size: 3.3333vw;
+  padding-bottom: 5.84375vw;
+}
+}

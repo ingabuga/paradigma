@@ -8,3 +8,11 @@
   padding-bottom: 0.833333vw;
   text-align: center;
 }
+
+
+@media only screen and (max-width: 768px) {
+.popup__title {
+  font-size: 5.5vw;
+}
+
+}

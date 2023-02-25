@@ -25,3 +25,23 @@
   vertical-align:middle !important;
   letter-spacing: 0.4em;
 }
+
+
+@media only screen and (max-width: 768px) {
+.popup__tel {
+font-size:2.5vw;
+}
+
+.popup__tel-input {
+  width: 100%;
+  height: 14.6vw;
+  border-radius: 13.4vw;
+  margin: 1.875vw 0 1.875vw 0;
+
+}
+
+.popup__tel-input::placeholder {
+  font-size:3.125vw;
+}
+
+}
