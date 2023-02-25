@@ -79,6 +79,7 @@
 }
 
 .cover__button-whatsap img {
+  /* display: none; */
   width: 1.6666667vw;
   height: 1.6666667vw;
   object-fit: cover;

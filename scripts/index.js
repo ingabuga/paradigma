@@ -7,6 +7,11 @@ const checkbox = document.getElementById("checkbox");
 const btnSubmit = document.querySelector(".popup__button");
 const maps = document.querySelectorAll('.header__map');
 const map = document.querySelector('.header__map-yandex');
+const headerAddress = document.querySelector('.header__address'); //блок в меню с адресом
+const headerMap = document.querySelector('.header__map'); //блок в меню с картой
+const headerCalc = document.querySelector('.header__calc'); //блок в меню с калькулятором
+const headerSocial = document.querySelector('.header__social'); //блок в меню с соцсетями
+const headerSecond = document.querySelector('.header__second'); //блок меню навигации
 
 
 // Функция проверки чекбокса
@@ -32,6 +37,7 @@ maps.forEach((item) => {
     setTimeout(remove, 1500)
   });
 });
+
 
 
 
@@ -72,7 +78,58 @@ function escapeHandler(evt) {
   }
 }
 
+//Добавление классов к блокам при изменении ширины экрана
+window.addEventListener('resize', function () {
+  if (window.innerWidth <= 768) {
+    // 0...768
+    headerAddress.classList.add('desktop');
+  } else {
+    // 769...Inf
+    headerAddress.classList.remove('desktop');
+  }
+});
 
+window.addEventListener('resize', function () {
+  if (window.innerWidth <= 768) {
+    // 0...768
+    headerMap.classList.add('desktop');
+  } else {
+    // 769...Inf
+    headerMap.classList.remove('desktop');
+  }
+});
+
+window.addEventListener('resize', function () {
+  if (window.innerWidth <= 768) {
+    // 0...768
+    headerCalc.classList.add('desktop');
+  } else {
+    // 769...Inf
+    headerCalc.classList.remove('desktop');
+  }
+});
+
+window.addEventListener('resize', function () {
+  if (window.innerWidth <= 768) {
+    // 0...768
+    headerSocial.classList.add('desktop');
+  } else {
+    // 769...Inf
+    headerSocial.classList.remove('desktop');
+  }
+});
+
+window.addEventListener('resize', function () {
+  if (window.innerWidth <= 768) {
+    // 0...768
+    headerSecond.classList.add('desktop');
+  } else {
+    // 769...Inf
+    headerSecond.classList.remove('desktop');
+  }
+});
+
+//Слушатели кнопок открытия и закрытия попапов
 buttonTel.addEventListener('click', () => openPopups(popupCall));
 btnSubmit.addEventListener('click', () => closePopups(popupCall));
 
