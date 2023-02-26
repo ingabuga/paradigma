@@ -168,6 +168,11 @@
   color: #20C863;
 }
 
+
+.cover__button-calc::after {
+  width: 20.3125vw;
+    height: 25vw;
+}
 }
 
 
