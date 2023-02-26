@@ -20,5 +20,6 @@
 
   .bg-white {
     background-color: white;
+    z-index:2;
   }
 }
