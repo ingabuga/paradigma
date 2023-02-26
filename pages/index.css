@@ -43,3 +43,7 @@
 @import url(../block/desktop/desktop.css);
 @import url(../block/header/__button/header__button-menu.css);
 @import url(../block/popup/__menu/popup__menu.css);
+
+
+@import url(../block/wrapper/wrapper.css);
+@import url(../block/scroll/scroll.css);

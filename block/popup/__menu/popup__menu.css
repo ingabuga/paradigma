@@ -11,8 +11,8 @@
   transition: opacity .3s, visibility 0s .3s ease-in-out;
   background-color: #F5F5F5;
   width: 100vw;
-  height: 100vh;
-  position: fixed;
+  height: calc(100vw * 2.5);
+  position: absolute;
   top: 0;
   left: 0;
   font-family: 'Manrope', Arial, sans-serif;
@@ -27,7 +27,7 @@
 .popup__menu-header {
   width: 100%;
   display: flex;
-  margin: 3.75px 0 9.6875vw 0;
+  margin: 1.1vw 0 9.6875vw 0;
   align-items: center;
 }
 
@@ -35,6 +35,26 @@
   width: 28.75vw;
   height: auto;
   margin-right: auto;
+}
+
+.popup__menu-tel {
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    /* color: black; */
+}
+
+.popup__menu-tel-call {
+  display:flex;
+  align-items: center;
+  /* color: black; */
+}
+
+.popup__menu-tel p {
+  font-size: 1.875vw;
+  /* color: white; */
+  font-weight: 400;
+  margin: 0;
 }
 
 .popup__menu-item {
@@ -67,28 +87,39 @@
 }
 
 
-.header__tel a {
-  color: black;
+.popup__tel a {
+  /* color: black; */
   text-decoration: none;
   font-size: 3.75vw;
 }
 
 .popup__tel-order {
   font-size: 1.875vw;
-  color: black;
   display: flex;
-  justify-content: flex-start;
-  align-items: center;
-  margin-top: 0.26vw !important;
-  position: relative;
-  margin: 0;
-  border: 0;
-  padding: 0;
-  background-color: transparent;
-  /* color: black; */
-  text-decoration: none;
-  cursor: pointer;
+    justify-content: flex-start;
+    align-items: center;
+    margin-top: 0.26vw !important;
+    position: relative;
+    margin: 0;
+    border: 0;
+    padding: 0;
+    color: black;
+    background-color: transparent;
+    /* color: black; */
+    text-decoration: none;
+    cursor: pointer;
+
+
 }
+
+.popup__menu-tel-phone-link {
+  position: relative;
+  font-weight: 700;
+  font-size: 3.75vw;
+  text-decoration: none;
+  color: black;
+}
+
 
 .popup__tel-order::after {
   content: "";
@@ -100,6 +131,10 @@
   height: 0;
   -webkit-transition: .4s;
   transition: .4s;
+}
+
+.popup__tel-order:hover::after {
+  width:50%;
 }
 
 .popup__button-menu {
@@ -121,6 +156,31 @@
   align-items: flex-end;
   margin-bottom: 38px;
 }
+
+.dot {
+  position: relative;
+  color: black;
+  font-weight: 600;
+  text-decoration: none;
+}
+
+.dot::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: -2px;
+  border-bottom: 0.1041666667vw dotted #d91967;
+  width: 100%;
+  height: 0;
+  -webkit-transition: .4s;
+  transition: .4s;
+}
+
+
+.dot:hover::after {
+  width:50%;
+}
+
 
 .popup__menu-map img {
   width: 65px;

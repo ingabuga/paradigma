@@ -2,6 +2,7 @@ const buttonTel = document.querySelector('.header__tel-order'); //выбирае
 const buttonClose = document.querySelector('.popup__button-close'); // выбираем кнопку закрытия попапа
 const buttonMenu = document.querySelector('.header__button-menu'); //кнопка меню в мобильной версии
 const btnSubmit = document.querySelector(".popup__button"); //кнопка отправки формы
+const buttonMenuMob = document.querySelector('.popup__button-menu'); //кнопка мобильного меню
 
 const popupCall = document.querySelector('.popup__call'); //попап обратной связи
 const popupMenu = document.querySelector('.popup__menu');
@@ -14,7 +15,7 @@ const map = document.querySelector('.header__map-yandex');
 let scrollpos = window.scrollY
 
 const header = document.querySelector("header");
-const tel = document.querySelector('.header__tel');
+const tel = document.querySelector('.header__tel-call');
 const telOrder = document.querySelector('.header__tel-order');
 const telLink = document.querySelector('.header__tel-phone-link');
 const scrollChange = 1
@@ -71,7 +72,6 @@ maps.forEach((item) => {
 
 
 
-
 // //Функция открытия попапа
 function openPopups(popup) {
   popup.classList.add('popup_opened');
@@ -113,5 +113,4 @@ function escapeHandler(evt) {
 buttonTel.addEventListener('click', () => openPopups(popupCall));
 btnSubmit.addEventListener('click', () => closePopups(popupCall));
 buttonMenu.addEventListener('click', () => openPopups(popupMenu));
-
-
+buttonMenuMob.addEventListener('click', () => closePopups(popupMenu));
