@@ -15,7 +15,7 @@
   -ms-flex-negative: 0;
 }
 
-.header__map a {
+.header__map-button {
   position: relative;
   margin: 0;
   font-weight: 400;
@@ -24,9 +24,13 @@
   text-decoration: none;
   letter-spacing: 0.06em;
   color: black;
+  background: transparent;
+  border: none;
+  cursor: pointer;
+  padding: 0;
 }
 
-.header__map a::after {
+.header__map-button::after {
   content: "";
   position: absolute;
   left: 0;
@@ -39,7 +43,7 @@
 }
 
 
-.header__map a:hover::after {
+.header__map-button:hover::after {
   width:50%;
 }
 
@@ -52,8 +56,12 @@
   top: 10%;
   left: 50%;
   transform: translateX(-50%);
-  transform: all 0.4s;
+  -webkit-transform: translateX(-50%);
+  -ms-transform: translateX(-50%);
+  transform: all 0.5s;
+  z-index: 2;
 }
+
 
 .active {
   visibility: visible;

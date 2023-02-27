@@ -32,7 +32,8 @@
   }
 
   .popup__policy label {
-    font-size: 2.5vw;
+    font-size: 3vw;
     margin-left: 8px;
+    width: 68vw;
   }
 }

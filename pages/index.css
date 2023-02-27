@@ -47,3 +47,6 @@
 
 @import url(../block/wrapper/wrapper.css);
 @import url(../block/scroll/scroll.css);
+@import url(../block/popup/__yandex/popup__yandex.css);
+
+@import url(../block/popup/__feedback/popup__feedback.css);
