@@ -1,15 +1,16 @@
 .header__social {
   display: flex;
-  margin-right: 2.96875vw;
+  margin-right: 3.3875vw;
   align-items:center;
 }
 
 
 .header__social p {
   font-weight: 400;
-  font-size: 0.57291667vw;
-  line-height: 1.6363;
-  margin: 0 0.9375vw 0 0;
+    font-size: 0.57291667vw;
+    line-height: 1.6363;
+    margin: 0 0.975vw 0 0;
+    letter-spacing: 0.05em;
 }
 
 .header__social a {

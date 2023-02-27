@@ -1,6 +1,6 @@
 .header__calc {
   display: flex;
-  margin-right: 2.96875vw;
+  margin-right: 3.875vw;;
   align-items:center;
 }
 
@@ -22,7 +22,10 @@
   font-weight: 400;
   font-size: 0.57291667vw;
   line-height: 1.6363;
+  letter-spacing: 0.06em;
 }
+
+
 
 .header__calc-text {
   display: block;
@@ -30,13 +33,26 @@
   cursor: pointer;
 }
 
-.header__calc-text p::after {
+
+.header__calc p:nth-child(1):after {
   content: "";
   position: absolute;
   left: 0;
   bottom: 0px;
   border-bottom: 0.1041666667vw dotted #d91967;
-  width: 100%;
+  width: 110%;
+  height: 0;
+  -webkit-transition: .4s;
+  transition: .4s;
+}
+
+.header__calc p:nth-child(2):after {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: 0px;
+  border-bottom: 0.1041666667vw dotted #d91967;
+  width: 80%;
   height: 0;
   -webkit-transition: .4s;
   transition: .4s;
