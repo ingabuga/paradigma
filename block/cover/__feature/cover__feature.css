@@ -2,10 +2,11 @@
   color: white;
   font-weight: 400;
   font-size: 0.88541667vw;
-  line-height: 1.57em;
+  line-height: 1.69em;
   border-right: 1pt solid rgba(255, 255, 255, 0.25);
   margin-right: 4.94791667vw;
-  padding-right: 4.94791667vw;
+  /* padding-right: 4.94791667vw; */
+  padding-right: 4.44791667vw;
 
 }
 
@@ -19,6 +20,7 @@
 
 .cover__feature:nth-child(3) {
   width: 12.34375vw;
+  padding-right: 3vw;
 }
 
 .cover__feature:last-child {

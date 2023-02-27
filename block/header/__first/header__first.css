@@ -1,10 +1,10 @@
 .header__first {
-  width: 85vw;
-  margin: 0 7.13541667vw 0 auto;
+  width: 85.5vw;
+  margin: 0 7.2vw 0 auto;
   display: flex;
   align-items: center;
   justify-content: flex-end;
-  padding: 1.145833vw 0 1.145833vw 0;
+  padding: 1.195833vw 0 1.105833vw 0;
   border-bottom: 1px solid  rgb(42, 42, 42, 0.15);
 }
 

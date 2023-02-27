@@ -1,6 +1,6 @@
 .header__address {
   display: flex;
-  margin-right: 2.96875vw;
+  margin-right: 3.66875vw;
   align-items:center;
 }
 
@@ -13,7 +13,7 @@
   overflow: hidden;
   object-fit: cover;
   -o-object-fit: cover;
-  margin-right: 0.78125vw;
+  margin-right: 0.48125vw;
   -ms-flex-negative: 0;
 }
 

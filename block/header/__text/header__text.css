@@ -4,6 +4,7 @@
   font-weight: 400;
   font-size: 0.57291667vw;
   line-height: 1.81;
+  letter-spacing: 0.02em;
 }
 
 @media only screen and (max-width: 768px) {

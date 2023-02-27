@@ -51,7 +51,7 @@
   width: 13.28125vw;
   font-size: 0.833333vw;
   text-align: center;
-  line-height: 1.5em;
+  line-height: 1.38em;
   letter-spacing: 0.05em;
 }
 
@@ -65,15 +65,16 @@
 .cover__button-whatsap {
   display: flex;
   flex-shrink: 0;
-  justify-content: space-between;
-  width: 17.3958333vw;
-  border-radius:26.0416667vw;
+  justify-content: flex-start;
+  width: 17.2058333vw;
+  border-radius: 26.0416667vw;
   background-color: rgba(0, 0, 0, 0.45);
   border: 1pt solid rgba(255, 255, 255, 0.45);
-  padding: 1.71875vw;
+  padding: 1.84875vw 2.04875vw 1.64875vw 1.44875vw;
   margin-right: 1.1458333vw;
   align-items: center;
   color: white;
+  box-sizing: content-box;
   text-decoration: none;
 }
 
@@ -95,7 +96,7 @@
   font-size: 0.833333vw;
   text-align: center;
   line-height: 1.5em;
-  letter-spacing: 0.05em;
+  letter-spacing: 0.07em;
 }
 
 .cover__button-whatsap img {
@@ -103,6 +104,7 @@
   width: 1.6666667vw;
   height: 1.6666667vw;
   object-fit: cover;
+  margin-right: 0.52vw;
 }
 
 
