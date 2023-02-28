@@ -5,8 +5,9 @@
   justify-content: flex-start;
   /* margin: 0 auto; */
   list-style: none;
-  padding: 0 0 0 5.98958333vw;
-  margin: 0;
+  padding: 0;
+  /* padding: 0 0 0 5.98958333vw; */
+  margin: 0 7.34375vw 0 6.05263158vw;
 }
 
 .cover__features-mob {
