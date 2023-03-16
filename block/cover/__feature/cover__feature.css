@@ -62,6 +62,7 @@
 
   .cover__feature:nth-child(3) {
     width: 100%;
+    padding: 0 4.94791667vw 0 0vw;
   }
 
   .cover__feature:last-child {

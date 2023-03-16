@@ -34,6 +34,8 @@
   transition: .5s;
 }
 
+
+
 .cover__button-calc:hover {
   background-color: rgb(110, 14, 14);
   -webkit-transition: .4s;
